@@ -17,7 +17,7 @@ function Contact () {
         const data = {nom, email, message}
         console.log(data);
 
-        const url = 'http://localhost:7000/Admin/contact';
+        const url = 'http://192.168.0.133:7000/Admin/contact';
         await axios.post(url, data)
             .then((response) => {
                 toast.success('send mail Success');
