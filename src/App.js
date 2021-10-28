@@ -4,8 +4,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 // user Routes
 import Home from './Screens/Home'
-// import About from './Screens/ProductDetails';
-// import Contact from './Screens/Contact'
+import Contact from './Screens/contact'
 
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
         <BrowserRouter>
         <Switch>
             <Route path = "/" exact component={Home}/>
-            {/* <Route path = "/contact" exact component={Contact} />  */}
+            <Route path = "/contact" exact component={Contact} /> 
             {/* <Route path = "/products/:idcat" exact component={fetchByCategory} />  */}
       
         </Switch>
