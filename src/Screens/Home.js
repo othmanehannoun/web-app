@@ -20,7 +20,7 @@ function Home() {
           </Link>
         </div>
         <div className="col-md-6 content1-right">
-          <img src='../../assets/img/iphone.svg' alt="é" width="45"/>
+          <img src='../../assets/img/iphone.svg' alt="é" width="45%"/>
         </div>
        </div>
        
