@@ -5,7 +5,7 @@ import '../css/App.css'
 
 function Home() {
   return (
-    <div className="container">
+    <div className="">
 
       <Navbar />
 
@@ -16,11 +16,11 @@ function Home() {
           <p style={{fontSize:'22px', color:'rgb(47 47 47)'}}>Enregistrez simplement vos transactions, directement sur votre téléphone et collectez votre argent plus facilement.</p>
           <p>Cliquez ici, pour télécharger l’application</p>
           <Link to="">
-            <img src="../../assets/img/googleplay.svg" alt=""/>
+            <img src="../../assets/img/googleplay.svg" alt="" />
           </Link>
         </div>
         <div className="col-md-6 content1-right">
-          <img src='../../assets/img/iphone.svg' alt="é"/>
+          <img src='../../assets/img/iphone.svg' alt="é" width="45"/>
         </div>
        </div>
        
