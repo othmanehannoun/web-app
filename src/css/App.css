@@ -4,11 +4,6 @@ body{
   background-color: rgb(250 251 252);
 }
 
-.container-sm {
-  width: 1080px;
-  height: 650px;
-  position: relative;
-}
 .navbar{
   width: 100%;
   background-color: #ffff;
