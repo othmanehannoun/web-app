@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-    <div className="container-sm">
+    <div className="container">
         <img src="../../assets/img/work.png" width="5%" alt="xxx"/>
         <Link className="ml-3 navbar-brand" to="/">Karny</Link>
         
