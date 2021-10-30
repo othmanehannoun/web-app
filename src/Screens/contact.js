@@ -17,7 +17,7 @@ function Contact () {
         const data = {nom, email, message}
         console.log(data);
 
-        const url = 'http://192.168.0.133:7000/Admin/contact';
+        const url = 'https://backend-filrouge.herokuapp.com/Admin/contact';
         await axios.post(url, data)
             .then((response) => {
                 toast.success('send mail Success');
@@ -42,28 +42,28 @@ function Contact () {
       <h1 className="title">Contact us</h1>
       <h2 className="subtitle">We are here assist you.</h2>
       <form onSubmit={HandelSendMail}>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Name</label>
-        <input type="text" name="nom" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      <div className="mb-3">
+        <label className="form-label">Name</label>
+        <input type="text" name="nom" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
          value={nom} 
          onChange={e => setNom(e.target.value)}
          />
       </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+      <div className="mb-3">
+        <label className="form-label">Email address</label>
+        <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
         value={email} 
         onChange={e => setEmail(e.target.value)}
         />
       </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Message</label>
-        <textarea name="message" className="form-control" id rows={6} defaultValue={""}
+      <div className="mb-3">
+        <label className="form-label">Message</label>
+        <textarea name="message" className="form-control" rows={6}
         value={message} 
         onChange={e => setMessage(e.target.value)}
          />
       </div>
-      <button type="submit" class="btn btn-primary">SEND</button>
+      <button type="submit" className="btn btn-primary">SEND</button>
       </form>
     </div>
   </div>

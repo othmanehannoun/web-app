@@ -28,8 +28,8 @@ function Navbar() {
             </li>
         </ul>
 
-        <div class="d-flex">
-            <button class="themeBtn4">Télecharger L'app <i class="fa fa-arrow-circle-right"></i></button>       
+        <div className="d-flex">
+            <button className="themeBtn4">Télecharger L'app <i className="fa fa-arrow-circle-right"></i></button>       
         </div>
 
         </div>
