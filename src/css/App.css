@@ -4,14 +4,36 @@ body{
   background-color: rgb(250 251 252);
 }
 
+.container{
+  width: 1080px;
+  height: 650px;
+  position: relative;
+}
+
 .navbar{
   width: 100%;
   background-color: #ffff;
   box-shadow: 0 10px 25px -2px rgba(197, 197, 197, 0.6);
   margin-top: 15px;
 }
+
 .navbar-brand, .nav-link, p, h3{
   font-family: 'PT Sans', sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+  .logoImg{
+    width: 10%;
+  }
+  .themeBtn4 {
+    margin-right: 30%;
+  }
+  .navbar-expand-lg .navbar-nav {
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 10px 25px -2px rgba(216, 216, 216, 0.6);
+
+  }
+  
 }
 h3{
   font-size: 45px;
@@ -38,8 +60,10 @@ h3{
 }
 
 .d-flex{
-  width: 28%;
+  width: 100%;
+  justify-content: end;
 }
+
 
 /* Start Style Button */
 .themeBtn4 {
@@ -57,7 +81,6 @@ h3{
   border: 0px!important;
   cursor: pointer;
   border-radius: 100px;
-
 }
 .themeBtn4:hover {
   background: #00cec9;

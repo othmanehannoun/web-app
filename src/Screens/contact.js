@@ -31,12 +31,16 @@ function Contact () {
     }
 
   return (
-    <>
+    <div className="container page">
     <Navbar />
     
     <div className="row session">
     <div className="col-md-8">
-    <iframe width="100%" height="580px" className="absolute inset-0" frameBorder={0} title="map" marginHeight={0} marginWidth={0} scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.7047433966877!2d-9.237232184983602!3d32.29291528112086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211719897669%3A0x6f59fa5bb517f58a!2sYouCode%20Safi!5e0!3m2!1sfr!2sma!4v1632133546335!5m2!1sfr!2sma" style={{filter: 'grayscale(0.5) opacity(0.9)'}} />
+    <iframe width="100%" height="600px" className="absolute inset-0" frameBorder={0} 
+            title="map" marginHeight={0} marginWidth={0} scrolling="no" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.7047433966877!2d-9.237232184983602!3d32.29291528112086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211719897669%3A0x6f59fa5bb517f58a!2sYouCode%20Safi!5e0!3m2!1sfr!2sma!4v1632133546335!5m2!1sfr!2sma" 
+            // style={{filter: 'grayscale(0.5) opacity(0.9)'}} 
+    />
     </div>
     <div className=" col-md-4 contact-form">
       <h1 className="title">Contact us</h1>
@@ -67,7 +71,7 @@ function Contact () {
       </form>
     </div>
   </div>
- </>   
+ </div>   
   );
 }
 

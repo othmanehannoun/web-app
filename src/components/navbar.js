@@ -8,8 +8,8 @@ import {Link} from 'react-router-dom';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-    <div className="container">
-        <img src="../../assets/img/work.png" width="5%" alt="xxx"/>
+    <div className="container-fluid">
+        <img className="logoImg" src="../../assets/img/work.png" width="5%" alt="xxx"/>
         <Link className="ml-3 navbar-brand" to="/">Karny</Link>
         
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
